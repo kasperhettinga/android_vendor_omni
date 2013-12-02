@@ -15,11 +15,16 @@ PRODUCT_PACKAGES += \
     DSPManager \
     libcyanogen-dsp \
     MonthCalendarWidget \
-    OpenDelta \
     OmniSwitch
 
 PRODUCT_PACKAGES += \
     CellBroadcastReceiver
+
+# Mackay-specific apps
+PRODUCT_PACKAGES += \
+    CMFileManager \
+    LockClock
+
 
 # Additional tools
 PRODUCT_PACKAGES += \
